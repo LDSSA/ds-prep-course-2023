@@ -1,4 +1,4 @@
-# Data Science Prep Course 2022
+# Data Science Prep Course 2023
 
 Welcome to the Data Science Prep Course repository! 🧑‍💻
 
@@ -11,9 +11,9 @@ Your first step in this journey is to **carefully read** the steps in this tutor
 
 # Prep Course Tutorial
 
-Follow these steps to make sure your machine is ready by April 4, 2022.
+Follow these steps to make sure your machine is ready by March 31st, 2023.
 
-### **Initial Setup (do this before April 4 !!)**
+### **Initial Setup (do this before AMarch 31st !!)**
 
 1. [Initial Setup](#1-initial-setup)
 
@@ -29,7 +29,7 @@ Follow these steps to make sure your machine is ready by April 4, 2022.
 
     1.3 [Setup your Workspace Repository](#13-setup-your-workspace-repository)
 
-    1.4 [Clone the ds-prep-course-2022 repository](#14-clone-the-ds-prep-course-2022-repository)
+    1.4 [Clone the ds-prep-course-2023 repository](#14-clone-the-ds-prep-course-2023-repository)
 
     1.5 [Creating a virtual environment](#15-creating-a-virtual-environment)
 
@@ -58,7 +58,7 @@ Follow these steps to make sure your machine is ready by April 4, 2022.
 Here you'll setup and learn about all the tools you'll be
 using during the academy. Don't worry if you can't figure out what some of the commands you will use do. Anything that is important will be explained in more detail during the course.
 
-⚠️ **Important**: You should complete this setup by April 4, as the course will begin on that day. If you are struggling to install any of the software mentioned below, tell us ASAP!
+⚠️ **Important**: You should complete this setup by March 31st, as the course will begin on that day. If you are struggling to install any of the software mentioned below, tell us ASAP!
 
 <br>
 
@@ -286,7 +286,7 @@ source ~/.zshrc
 
 ### **1.2 Setup _Git_ and _GitHub_**
 
-**Git** is a distributed version-control system for tracking changes in source  code. A **repository** is where code lives, and the code from the prep course will live at [`ds-prep-course-2022`](https://github.com/LDSSA/ds-prep-course-2022) repository (basically where you are right now, reading this). All the learning materials and exercises will be released (made available) on this repository.
+**Git** is a distributed version-control system for tracking changes in source  code. A **repository** is where code lives, and the code from the prep course will live at [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository (basically where you are right now, reading this). All the learning materials and exercises will be released (made available) on this repository.
 
 **Step 1:** [Sign up](https://github.com/join) for a _GitHub_ account and follow the instructions.
 
@@ -373,11 +373,11 @@ _Remember that by August 13, 2021, the username+password authentication [will no
 
 <br>
 
-### **1.4 Clone the `ds-prep-course-2022` repository**
+### **1.4 Clone the `ds-prep-course-2023` repository**
 
 <br>
 
-Let's clone the [`ds-prep-course-2022`](https://github.com/LDSSA/ds-prep-course-2022) repository, [just like we did](#132-cloning-the-workspace) for `ds-prep-workspace`. This is where all of the learning materials will be made available, as the academy progresses.
+Let's clone the [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository, [just like we did](#132-cloning-the-workspace) for `ds-prep-workspace`. This is where all of the learning materials will be made available, as the academy progresses.
 
 **Step 1:** Open a terminal (or use one you've already opened) and enter the `projects` folder:
 
@@ -388,7 +388,7 @@ cd ~/projects
 **Step 2:** Clone the Prep Course repository (it's the same that contains the README you're reading right now!):
 
 ```bash
-git clone https://github.com/LDSSA/ds-prep-course-2022.git
+git clone https://github.com/LDSSA/ds-prep-course-2023.git
 ```
 
 <br>
@@ -428,7 +428,7 @@ pip install -U pip
 
 ### **1.6 Testing the workflow**
 
-Finally, test the workflow ([next section](#2-learning-unit-workflow)) on `"Week 00"` before April 4. This folder is used to give instructors guidelines to produce the learning units. We are also using it to ensure that you are able to run and submit a learning unit.
+Finally, test the workflow ([next section](#2-learning-unit-workflow)) on `"Week 00"` March 31st. This folder is used to give instructors guidelines to produce the learning units. We are also using it to ensure that you are able to run and submit a learning unit.
 
 <br>
 
@@ -436,7 +436,7 @@ Finally, test the workflow ([next section](#2-learning-unit-workflow)) on `"Week
 
 ## **2. Learning Unit Workflow**
 
-**Each week** a new folder is released on [`ds-prep-course-2022`](https://github.com/LDSSA/ds-prep-course-2022) repository. On week 1 (April 4 - April 10), the folder released will be `"Week 01"`. On week 02, it will be called `"Week 02"`, and so on. These folders contain the learning units you'll be working on. The releases will be announced on Slack, on the _**#announcements**_ channel.
+**Each week** a new folder is released on [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository. On week 1 (April 4 - April 10), the folder released will be `"Week 01"`. On week 02, it will be called `"Week 02"`, and so on. These folders contain the learning units you'll be working on. The releases will be announced on Slack, on the _**#announcements**_ channel.
 
 <br>
 
@@ -449,7 +449,7 @@ This section only needs to be done **ONCE for each week**. It is about getting t
 1. Run the following on a terminal:
 
     ```bash
-    cd ~/projects/ds-prep-course-2022/
+    cd ~/projects/ds-prep-course-2023/
     ```
 
     ```bash
@@ -459,7 +459,7 @@ This section only needs to be done **ONCE for each week**. It is about getting t
     **⚠️ Before running the command below:** - If `"Week <week number>"` already exists on the destination folder, it will be replaced, so make sure you do this **once** and before starting to work on the exercises.
 
     ```bash
-    cp -r ~/projects/ds-prep-course-2022/"Week <week number>" ~/projects/ds-prep-workspace/
+    cp -r ~/projects/ds-prep-course-2023/"Week <week number>" ~/projects/ds-prep-workspace/
     ```
 
 - If you're curious about how you could this using your OS GUI [check this guide](guides/using_os_gui_to_manage_directories.md)
@@ -537,7 +537,7 @@ All learning units come as a set of **Jupyter Notebooks**. These are documents t
 - **Learning Notebook**:
 Make sure you open and go through the Learning Notebook(s) first.
 
-> ⚠️ **Important:** **ALWAYS** work on the files on your `ds-prep-workspace` repository. **NEVER** work on files inside in the `ds-prep-course-2022` repository!
+> ⚠️ **Important:** **ALWAYS** work on the files on your `ds-prep-workspace` repository. **NEVER** work on files inside in the `ds-prep-course-2023` repository!
 
 - **Exercise Notebook:**
 
@@ -610,7 +610,7 @@ You'll be asked for your password - enter it and press <kbd>enter</kbd>. Type yo
 
 As much as we try and have processes in place to prevent errors and bugs in the learning units some make it through to you.
 
-If the problem is not in the exercise notebook you can just pull the new version from the `ds-prep-course-2022` repo and replace the file on your `ds-prep-workspace` (steps 1 and 2 from last section).
+If the problem is not in the exercise notebook you can just pull the new version from the `ds-prep-course-2023` repo and replace the file on your `ds-prep-workspace` (steps 1 and 2 from last section).
 
 If the correction is in the exercise notebook, however, you can't just replace the file because your work is there and you'll lose it!
 
@@ -635,13 +635,13 @@ You can contact us on Slack. Here's how to post questions on Slack:
 
 1. Use the channel of the Week you're asking about;
 1. Check if your question was already asked before posting;
-1. If you want to report bugs on the materials, open an issue on ds-prep-course-2022;
+1. If you want to report bugs on the materials, open an issue on ds-prep-course-2023;
 1. If you want to give feedback post it in the #feedback channel;
 1. Anything not related with the learning materials should go to the #random channel. No exceptions;
 1. Always answer in a thread;
 1. Use Direct Messages (DMs) to instructors only if you need to share your solutions or a personal concern.
 
-Alternatively, [open an issue](https://github.com/LDSSA/ds-prep-course-2022/issues/).
+Alternatively, [open an issue](https://github.com/LDSSA/ds-prep-course-2023/issues/).
 
 <br>
 
@@ -649,7 +649,7 @@ Alternatively, [open an issue](https://github.com/LDSSA/ds-prep-course-2022/issu
 
 1. [When I open Windows Explorer through Ubuntu, it goes to a different folder than in the guide](#1-When-I-open-Windows-Explorer-through-Ubuntu,-it-goes-to-a-different-folder-than-in-the-guide)
 1. [Ubuntu on Windows 10 high CPU usage, crashes](#2-ubuntu-on-windows-10-high-cpu-usage,-crashes)
-1. [When I pull from the `ds prep course-2022` repository, I get an error](#3-When-I-pull-from-the-ds-prep-course-2022-repository,-I-get-an-error)
+1. [When I pull from the `ds prep course-2023` repository, I get an error](#3-When-I-pull-from-the-ds-prep-course-2023-repository,-I-get-an-error)
 1. [When I try to open `jupyter notebook`, I get an error](#4-When-I-try-to-open-jupyter-notebook,-I-get-an-error)
 1. [When I use the `cp` command the `>` sign appears and the command does not execute](#5-When-I-use-the-`cp`-command-the->-sign-appears-and-the-command-does-not-execute)
 1. [When setting up python 3.7 i get an error](#6-When-setting-up-python-3.7-i-get-an-error)
@@ -668,7 +668,7 @@ Please make sure:
 - Make sure you are running Windows 10 version `1909` or newer.
 - Then, try following [these steps](https://teckangaroo.com/enable-windows-10-virtual-machine-platform/)
 
-#### ___3. When I pull from the `ds-prep-course-2022` repository, I get an error___
+#### ___3. When I pull from the `ds-prep-course-2023` repository, I get an error___
 
 If you get an error like the following when pulling:
 
@@ -679,19 +679,19 @@ Please commit your changes or stash them before you merge.
 Aborting
 ```
 
-what _git_ is telling you is that changes were made by you to the files on the `~/projects/ds-prep-course-2022` folder, and is not pulling the changes made by the instructors because they would override the changes that you made there.
+what _git_ is telling you is that changes were made by you to the files on the `~/projects/ds-prep-course-2023` folder, and is not pulling the changes made by the instructors because they would override the changes that you made there.
 
 To fix this do the following:
 
-1. Make sure that any change you made to the files on `~/projects/ds-prep-course-2022`  (that you don't want to lose) is saved in your `~/projects/ds-prep-workspace` repository (refer to [Updates to Learning Units](#3-updates-to-learning-units) on how to do this), and if you don't want to keep the changes you made to these files, just continue on to the next step;
-2. Go to the `~/projects/ds-prep-course-2022` folder and run:
+1. Make sure that any change you made to the files on `~/projects/ds-prep-course-2023`  (that you don't want to lose) is saved in your `~/projects/ds-prep-workspace` repository (refer to [Updates to Learning Units](#3-updates-to-learning-units) on how to do this), and if you don't want to keep the changes you made to these files, just continue on to the next step;
+2. Go to the `~/projects/ds-prep-course-2023` folder and run:
 
     ```bash
-    cd ~/projects/ds-prep-course-2022
+    cd ~/projects/ds-prep-course-2023
     git stash
     ```
 
-3. Now you can pull from the `ds-prep-course-2022` repository:
+3. Now you can pull from the `ds-prep-course-2023` repository:
 
     ```bash
     git pull
@@ -715,7 +715,7 @@ source ~/.virtualenvs/prep-venv/bin/activate
 #### ___5. When I use the `cp` command the `>` sign appears and the command does not execute___
 
 ```bash
-cp -r ~/projects/ds-prep-course-2022/“Week 00" ds-prep-workspace
+cp -r ~/projects/ds-prep-course-2023/“Week 00" ds-prep-workspace
 >
 ```
 
