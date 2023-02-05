@@ -13,7 +13,7 @@ Your first step in this journey is to **carefully read** the steps in this tutor
 
 Follow these steps to make sure your machine is ready by March 31st, 2023.
 
-### **Initial Setup (do this before AMarch 31st !!)**
+### **Initial Setup (do this before March 31st !!)**
 
 1. [Initial Setup](#1-initial-setup)
 
