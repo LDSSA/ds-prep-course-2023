@@ -428,7 +428,7 @@ pip install -U pip
 
 ### **1.6 Testing the workflow**
 
-Finally, test the workflow ([next section](#2-learning-unit-workflow)) on `"Week 00"` March 31st. This folder is used to give instructors guidelines to produce the learning units. We are also using it to ensure that you are able to run and submit a learning unit.
+Finally, test the workflow ([next section](#2-learning-unit-workflow)) on `"Week 00"` before March 31st. This folder is used to give instructors guidelines to produce the learning units. We are also using it to ensure that you are able to run and submit a learning unit.
 
 <br>
 
