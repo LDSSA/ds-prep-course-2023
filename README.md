@@ -80,29 +80,29 @@ If you are using MacOS, skip this section ([go to MacOS Setup](#11c-macos-setup)
 sudo apt update && sudo apt upgrade && sudo apt install git
 ```
 
-**Step 3:** Open a terminal (remember **[this](guides/Windows_Subsystem_for_Linux_Installation_Guide_for_Windows_10.md#Opening-the-WSL-terminal)**!!) and check if you already have `python3.7` by usind the command below. If your version is `Python 3.7.x` (`x` = any number), you can skip to step 4, otherwise continue with step 3.1 and 3.2
+**Step 3:** Open a terminal (remember **[this](guides/Windows_Subsystem_for_Linux_Installation_Guide_for_Windows_10.md#Opening-the-WSL-terminal)**!!) and check if you already have `python3.8` by usind the command below. If your version is `Python 3.8.x` (`x` = any number), you can skip to step 4, otherwise continue with step 3.1 and 3.2
 
 ```bash
-python3.7 --version
+python3.8 --version
 ```
 
-**Step 3.1:** Run the following commands to setup _Python 3.7_ (if you get an error with this command, check [this](#6-When-setting-up-python-3.7-i-get-an-error)
+**Step 3.1:** Run the following commands to setup _Python 3.8_ (if you get an error with this command, check [this](#6-When-setting-up-python-3.8-i-get-an-error)
 ):
 
 ```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
 ```
 
-**Step 3.2:** Run the following commands to install _Python 3.7_
+**Step 3.2:** Run the following commands to install _Python 3.8_
 
 ```bash
-sudo apt update && sudo apt install python3.7 -y
+sudo apt update && sudo apt install python3.8 -y
 ```
 
 **Step 4** Run the following command to get `pip` and `venv`:
 
 ```bash
-sudo apt update && sudo apt upgrade && sudo apt install python3-pip python3.7-venv -y
+sudo apt update && sudo apt upgrade && sudo apt install python3-pip python3.8-venv -y
 ```
 
 >**Why do we install these?**
@@ -121,29 +121,29 @@ This sections deals with installing some necessary packages.
 sudo apt update && sudo apt upgrade && sudo apt install git
 ```
 
-**Step 3:** Open a terminal and check what version of Python you have by using the command below. If your version is `Python 3.7.x` (`x` = any number), you can skip to step 4, otherwise continue with step 3.1 and 3.2
+**Step 3:** Open a terminal and check what version of Python you have by using the command below. If your version is `Python 3.8.x` (`x` = any number), you can skip to step 4, otherwise continue with step 3.1 and 3.2
 
 ```bash
-python3.7 --version
+python3.8 --version
 ```
 
-**Step 3.1:** Run the following commands to setup _Python 3.7_ (if you get an error with this command, check [this](#6-When-setting-up-python-3.7-i-get-an-error)
+**Step 3.1:** Run the following commands to setup _Python 3._ (if you get an error with this command, check [this](#6-When-setting-up-python-3.8-i-get-an-error)
 ):
 
 ```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
 ```
 
-**Step 3.2:** Run the following commands to install _Python 3.7_
+**Step 3.2:** Run the following commands to install _Python 3.8_
 
 ```bash
-sudo apt update && sudo apt install python3.7 -y
+sudo apt update && sudo apt install python3.8 -y
 ```
 
 **Step 4** Run the following command to get `pip` and `venv`:
 
 ```bash
-sudo apt update && sudo apt upgrade && sudo apt install python3-pip python3.7-venv -y
+sudo apt update && sudo apt upgrade && sudo apt install python3-pip python3.8-venv -y
 ```
 
 >**Why do we install these?**
@@ -197,13 +197,13 @@ brew install git
 **Step 5:** then run the following command:
 
 ```bash
-brew install python@3.7
+brew install python@3.8
 ```
 
 **Step 6:** then run the following command:
 
 ```bash
-brew link python@3.7
+brew link python@3.8
 ```
 
 <br>
@@ -266,16 +266,16 @@ alias ibrew="arch -x86_64 /usr/local/bin/brew"
 source ~/.zshrc
 ```
 
-**Step 4:** Install python 3.7 with `ibrew`
+**Step 4:** Install python 3.8 with `ibrew`
 
 ```bash
-ibrew install python@3.7
+ibrew install python@3.8
 ```
 
-**Step 5:** Add python 3.7 to $PATH
+**Step 5:** Add python 3.8 to $PATH
 
 ```bash
-export PATH="/usr/local/opt/python@3.7/bin:$PATH" >> ~/.zshrc
+export PATH="/usr/local/opt/python@3.8/bin:$PATH" >> ~/.zshrc
 ```
 
 **Step 6** Re-activate the alterations done to .zshrc
@@ -400,13 +400,13 @@ Before you work on a learning unit, you'll need to activate a [**virtual environ
 **Step 1:** Start by ensuring `pip`, `setuptools`, and `wheel` are up to date:
 
 ```bash
-python3.7 -m pip install --user --upgrade pip setuptools wheel
+python3.8 -m pip install --user --upgrade pip setuptools wheel
 ```
 
 **Step 2:** Create a virtual environment with the name `prep-venv`:
 
 ```bash
-python3.7 -m venv ~/.virtualenvs/prep-venv
+python3.8 -m venv ~/.virtualenvs/prep-venv
 ```
 
 **Step 3:** Activate the environment
@@ -652,7 +652,7 @@ Alternatively, [open an issue](https://github.com/LDSSA/ds-prep-course-2023/issu
 1. [When I pull from the `ds prep course-2023` repository, I get an error](#3-When-I-pull-from-the-ds-prep-course-2023-repository,-I-get-an-error)
 1. [When I try to open `jupyter notebook`, I get an error](#4-When-I-try-to-open-jupyter-notebook,-I-get-an-error)
 1. [When I use the `cp` command the `>` sign appears and the command does not execute](#5-When-I-use-the-`cp`-command-the->-sign-appears-and-the-command-does-not-execute)
-1. [When setting up python 3.7 i get an error](#6-When-setting-up-python-3.7-i-get-an-error)
+1. [When setting up python 3.8 i get an error](#6-When-setting-up-python-3.8-i-get-an-error)
 1. [Nothing happens when I type my password](#7-Nothing-happens-when-I-type-my-password)
 1. [I still have a NotImplemented error](#8-I-still-have-a-NotImplemented-error)
 
@@ -721,7 +721,7 @@ cp -r ~/projects/ds-prep-course-2023/“Week 00" ds-prep-workspace
 
 Make sure to use this type of quotes `"` and not these ones `“`.
 
-#### _**6. When setting up python 3.7 i get an error**_
+#### _**6. When setting up python 3.8 i get an error**_
 
 When I run this command:
 
