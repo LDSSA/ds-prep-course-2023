@@ -436,7 +436,7 @@ Finally, test the workflow ([next section](#2-learning-unit-workflow)) on `"Week
 
 ## **2. Learning Unit Workflow**
 
-**Each week** a new folder is released on [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository. On week 1 (April 4 - April 10), the folder released will be `"Week 01"`. On week 02, it will be called `"Week 02"`, and so on. These folders contain the learning units you'll be working on. The releases will be announced on Slack, on the _**#announcements**_ channel.
+**Each week** a new folder is released on [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository. On week 1 (April 3 - April 9), the folder released will be `"Week 01"`. On week 02, it will be called `"Week 02"`, and so on. These folders contain the learning units you'll be working on. The releases will be announced on Slack, on the _**#announcements**_ channel.
 
 <br>
 
