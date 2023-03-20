@@ -340,13 +340,13 @@ You can also check
 
 **Step 1:** Open a terminal (or use one you've already opened)
 
-**Step 2:** Create a folder named `projects` by using the `mkdir` command:
+**Step 2:** Create a folder named `projects` by using the `mkdir` command. Don't feel intimidated by these commands. They are simply Bash - a language to communicate with your operating system. `mkdir` essentially stands for **m**a**k**e **dir**ectory`. 
 
 ```bash
 mkdir ~/projects
 ```
 
-**Step 3:** Enter the folder by using the `cd` command:
+**Step 3:** Enter the folder by using the `cd` command. Did you know that `cd` means change directory? So basically changing to a different folder.
 
 ```bash
 cd ~/projects
