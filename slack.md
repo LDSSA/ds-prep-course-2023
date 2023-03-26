@@ -1,16 +1,18 @@
-## **4. How to ask for help**
+# Slack usage and how to ask for help
 
-During the Prep Course you will surely run into problems and have questions about the materials.
-Please refer to [this wiki page](https://github.com/LDSSA/wiki/wiki/Data-Science-Prep-Course#how-to-ask-for-help) on how to ask for help!
+### How to use Slack nicely and effectively
+Slack is our official communication channel. We will announce the release of the weekly learning materials and answer all your questions there. To make it a pleasant and productive experience for everyone, please follow these rules:
 
-You can contact us on Slack. Here's how to post questions on Slack:
-
-1. Use the channel of the Week you're asking about;
+1. For your sanity, set how and when you want to be notified in `Preferences` -> `Notifications`.
+1. You can install the Slack app on your phone.
+1. Use the channel of the Week you're asking about - more people will see your message, so the chances of receiving a good answer are higher than if you use a direct message;
+1. Use the #setup channel for technical questions;
 1. Check if your question was already asked before posting;
-1. If you want to report bugs on the materials, open an issue on ds-prep-course-2023;
+1. Always answer in a thread, it helps keep the conversations organized;
+1. Use `Shift`+`Enter` for newlines, just `Enter` will send the message;
+1. Use direct messages (DMs) to instructors only if you need to share your solutions or a personal concern;
+1. If you want to report bugs in the materials, you can open an issue on the ds-prep-course-2023 [repo](https://github.com/LDSSA/ds-prep-course-2023/issues/).;
 1. If you want to give feedback post it in the #feedback channel;
-1. Anything not related with the learning materials should go to the #random channel. No exceptions;
-1. Always answer in a thread;
-1. Use Direct Messages (DMs) to instructors only if you need to share your solutions or a personal concern.
+1. Anything not related with the learning materials should go to the #random channel.
 
-Alternatively, [open an issue](https://github.com/LDSSA/ds-prep-course-2023/issues/).
+See more tips for asking for help on [this wiki page](https://ldssa.github.io/wiki/DS%20Prep%20Course/Data-Science-Prep-Course/#how-to-ask-for-help).

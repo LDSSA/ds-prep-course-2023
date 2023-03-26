@@ -125,7 +125,7 @@ Now is the time to transfer your work from the local workspace repo to the remot
 
    You'll be asked for your git username and password  - enter your `token` for the password.
 
-## 1.4. Updates to learning units
+## 1.4. Updates of the learning units
 
 As much as we try and have processes in place to prevent errors and bugs in the learning units, some make it through to you. 
 
