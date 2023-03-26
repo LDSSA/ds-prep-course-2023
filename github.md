@@ -79,7 +79,7 @@ You should now have a local copy of your `ds-prep-workspace` in your `~/projects
 
 ### 2.4 Clone the `ds-prep-course-2023` repository
 
-Let's clone the [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository. This is where all of the learning materials will be made available, as the academy progresses. You will be getting them (pulling) from there.
+Let's clone the [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository. This is where all of the learning materials will be made available as the prep course progresses. You will be getting them (pulling) from there.
 
 **Step 1:** Open a terminal (or use one you've already opened) and enter the `projects` folder:
 
