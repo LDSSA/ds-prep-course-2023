@@ -11,7 +11,7 @@ We tried to provided detailed instructions, but you might not understand all the
 
 ## 1. How to use Slack and how to ask for help
 
-First and foremost, we'll talk about how to use our communication tool, Slack. You will learn how to use it effectively and how to use it to ask for help.
+First and foremost, we'll talk about how to use our communication tool, Slack. You will learn how to use it effectively and how to use it to ask for help. Click on the image to follow the link.
 
 <table>
   <tr>
