@@ -30,7 +30,7 @@ Note that we are using quotes in the path because it contains spaces. Example fo
 cp -r ~/projects/ds-prep-course-2023/"Week 01" ~/projects/ds-prep-workspace/
 ```
 
-If you're curious about how you can do this using your OS check [GUI this guide](guides/using_os_gui_to_manage_directories.md)
+If you're curious about how you can do this using your OS GUI [check this guide](guides/using_os_gui_to_manage_directories.md)
 
 ### 1.2. Activate the `prep-venv` environment you created in the initial setup
 
