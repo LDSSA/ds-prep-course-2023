@@ -13,7 +13,7 @@ So you're using Ubuntu, huh? Well, kudos to you. You just need to install a coup
 python3.8 --version
 ```
 
-**Step 1.1:** Run the following commands to setup `Python 3.8` (if you get an error with this command, check [this](troubleshooting.md#when-setting-up-python-3x-I-get-an-error)
+**Step 1.1:** Run the following commands to setup `Python 3.8` (if you get an error with this command, check [this](troubleshooting.md#6-when-setting-up-python-38-i-get-an-error)
 ). Add the `deadsnakes repository`:
 
 ```bash
