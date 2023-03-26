@@ -7,7 +7,7 @@ Your first step in this journey is to **carefully read** the steps in this tutor
 So you're using Ubuntu, huh? Well, kudos to you. You just need to install a couple of packages.
 
 
-**Step 1:** Open a terminal and check what version of Python you have by using the command below. If your version is `Python 3.8.x` (`x` = any number), you can skip to step 2, otherwise continue with step 1.1 and 1.2
+**Step 1:** Open a terminal and check what version of Python you have by using the command below. If your version is `Python 3.8.x` (`x` = any number), you can skip to step 2, otherwise continue with steps 1.1 and 1.2
 
 ```bash
 python3.8 --version
