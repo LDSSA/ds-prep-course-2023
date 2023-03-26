@@ -1,7 +1,7 @@
 # Data Science Prep Course 2023
 Welcome to the Data Science Prep Course repository! 🧑‍💻
 
-Your first step in this journey is to **carefully read** the steps in this tutorial. ⚠️ **Important**: Make sure to complete all the step during the setup week, **27.3 - 2.4.2023**. If you are struggling with any of the steps, tell us in the setup channel on Slack! In this turorial, you'll learn:
+Your first step in this journey is to **carefully read** the steps in this tutorial. ⚠️ **Important**: Make sure to complete all the step during the setup week, **27.3 - 2.4.2023**. If you are struggling with any of the steps, tell us in the #setup channel on Slack! In this tutorial, you'll learn:
 
 - Slack usage and etiquette;
 - How to setup your software environment;
@@ -14,7 +14,8 @@ First and foremost, we'll talk about how to use our communication tool, Slack. Y
 <table>
   <tr>
     <td>
-        <a href="https://github.com/ldsSA/ds-prep-course-2023/slack.md">
+#        <a href="https://github.com/ldsSA/ds-prep-course-2023/slack.md">
+         <a href="slack.md">
             <img src="media/slack.png" alt="Slack" />
         </a>
     </td>
