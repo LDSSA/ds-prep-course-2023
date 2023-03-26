@@ -4,7 +4,7 @@ Welcome to **MacOS set up** repository!
 
 Your first step in this journey is to **carefully read** the steps in this tutorial. You'll learn how to set up your computer - follow the link to your MacOS type:
 
-- :arrow_right
+- :arrow_right:
 
    - [MacOS Intel Setup](#MacOS-Intel-Setup)
    - [MacOS M1 Setup](#MacOS-M1-Setup)
