@@ -75,7 +75,7 @@ Now use the `token` instead of your password and press <kbd>enter</kbd>
 
 You should now have a local copy of your `ds-prep-workspace` in your `~/projects/ds-prep-workspace` folder.
 
-<img src='assets/personal_access_token.PNG' width="75%" />
+<img src='media/personal_access_token.PNG' width="75%" />
 
 ### 2.4 Clone the `ds-prep-course-2023` repository
 
