@@ -7,7 +7,7 @@ Your first step in this journey is to **carefully read** the steps in this tutor
 - How to setup your software environment;
 - The weekly workflow to follow during the Prep Course.
 
-We tried to provided detailed instructions, but you might not understand all the details of what and why you do in the setup for now. It will become clearer as you proceed with the course. So don't despair, put on your patience hat and ask for help when needed, there's light at the other end of the tunnel. :star2
+We tried to provided detailed instructions, but you might not understand all the details of what and why you do in the setup for now. It will become clearer as you proceed with the course. So don't despair, put on your patience hat and ask for help when needed, there's light at the other end of the tunnel. :star2:
 
 ## 1. How to use Slack and how to ask for help
 First and foremost, we'll talk about how to use our communication tool, Slack. You will learn how to use it effectively and how to use it to ask for help.
