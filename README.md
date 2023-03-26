@@ -14,7 +14,6 @@ First and foremost, we'll talk about how to use our communication tool, Slack. Y
 <table>
   <tr>
     <td>
-#        <a href="https://github.com/ldsSA/ds-prep-course-2023/slack.md">
          <a href="slack.md">
             <img src="media/slack.png" alt="Slack" />
         </a>
@@ -27,17 +26,17 @@ Please choose your operating system:
 <table>
   <tr>
     <td>
-        <a href="https://github.com/ldsSA/ds-prep-course-2023/macOS.md">
+        <a href="macOS.md">
             <img src="media/macOS.png" alt="MacOS" />
         </a>
     </td>
     <td>
-        <a href="https://github.com/ldsSA/ds-prep-course-2023/WINDOWS.md">
+        <a href="WINDOWS.md">
             <img src="media/windows.png" alt="Windows" />
         </a>
     </td>
     <td>
-        <a href="https://github.com/ldsSA/ds-prep-course-2023/LINUX.md">
+        <a href="LINUX.md">
             <img src="media/linux.png" alt="Linux" />
         </a>
     </td>
@@ -48,7 +47,7 @@ Please choose your operating system:
 <table>
   <tr>
     <td>
-        <a href="https://github.com/ldsSA/ds-prep-course-2023/github.md">
+        <a href="github.md">
             <img src="media/github.png" alt="GitHub" />
         </a>
     </td>
@@ -59,7 +58,7 @@ Please choose your operating system:
 <table>
   <tr>
     <td>
-        <a href="https://github.com/ldsSA/ds-prep-course-2023/python-venv.md">
+        <a href="python-venv.md">
             <img src="media/python-venv.png" alt="python-venv" />
         </a>
     </td>
@@ -71,7 +70,7 @@ The workflow that you will follow every week with every new learning unit. Test 
 <table>
   <tr>
     <td>
-        <a href="https://github.com/ldsSA/ds-prep-course-2023/weekly-workflow.md">
+        <a href="weekly-workflow.md">
             <img src="media/weekly-workflow.png" alt="weekly-workflow" />
         </a>
     </td>
@@ -82,7 +81,7 @@ The workflow that you will follow every week with every new learning unit. Test 
 <table>
   <tr>
     <td>
-        <a href="https://github.com/ldsSA/ds-prep-course-2023/troubleshooting.md">
+        <a href="troubleshooting.md">
             <img src="media/troubleshooting.png" alt="troubleshooting" />
         </a>
     </td>
