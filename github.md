@@ -54,14 +54,14 @@ mkdir ~/projects
 cd ~/projects
 ```
 
-**Step 4:** You can now **clone** (create a local copy) the `ds-prep-workspace` repository you created on `GitHub`.
+**Step 4:** You can now **clone** (create a local copy of) the `ds-prep-workspace` repository you created on `GitHub`.
 Replace `<username>` below with your `GitHub` username, removing the brackets `< >`, and run the command:
 
 ```bash
 git clone https://github.com/<username>/ds-prep-workspace.git
 ```
 
-   **Note**: if you have had a `GitHub` account since before this course and you are using `ssh keys` instead of `tokens`, first make sure that you have completed the steps starting [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys), then close your repository like this. You can skip step 5 and continue with section 2.4.
+   **Note**: if you have had a `GitHub` account since before this course and you are using `ssh keys` instead of `tokens`, first make sure that you have completed the steps starting [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys), then clone your repository like this. You can skip step 5 and continue with section 2.4.
 
    ```bash
    git clone git@github.com:<username>/ds-prep-workspace.git
