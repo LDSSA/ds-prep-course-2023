@@ -8,12 +8,11 @@ Slack is our official communication channel. We will announce the release of the
 
 1. For your sanity, set how and when you want to be notified in `Preferences` -> `Notifications`.
 1. You can install the Slack app on your phone.
-1. Use the channel of the Week you're asking about - more people will see your message, so the chances of receiving a good answer are higher than if you use a direct message;
+1. Use the channel of the Week you're asking about - more people will see your message, so the chances of receiving a good answer are higher;
 1. Use the #setup channel for technical questions;
 1. Check if your question was already asked before posting;
 1. Always answer in a thread, it helps keep the conversations organized;
 1. Use `Shift`+`Enter` for newlines, just `Enter` will send the message;
-1. Use direct messages (DMs) to instructors only if you need to share your solutions or a personal concern;
 1. If you want to report bugs in the materials, you can open an issue on the ds-prep-course-2023 [repo](https://github.com/LDSSA/ds-prep-course-2023/issues/).;
 1. If you want to give feedback post it in the #feedback channel;
 1. Anything not related with the learning materials should go to the #random channel.
