@@ -42,7 +42,14 @@ source ~/.virtualenvs/prep-venv/bin/activate
 
 All learning units come as a set of **Jupyter Notebooks**. These are documents that can contain text, images and live code that you can run interactively. You will learn how to use the Jupyter Notebooks in Week 00.
 
-Make sure that you are in your workspace folder and that the virtual environment is activated. Then follow the steps below.
+Make sure that you are in your workspace folder and that the virtual environment is activated:
+
+```bash
+cd ~/projects/ds-prep-workspace
+source ~/.virtualenvs/prep-venv/bin/activate
+```
+
+Then follow the steps below.
 
 **Step 1:** Open the Jupyter Notebook application by running:
 
