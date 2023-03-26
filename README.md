@@ -1,7 +1,7 @@
 # Data Science Prep Course 2023
 Welcome to the Data Science Prep Course repository! 🧑‍💻
 
-Your first step in this journey is to **carefully read** the steps in this tutorial. ⚠️ **Important**: Make sure to complete all the step during the setup week, **27.3 - 2.4.2023**. If you are struggling with any of the steps, tell us in the #setup channel on Slack! In this tutorial, you'll learn:
+Your first step in this journey is to **carefully read** the steps in this tutorial. ⚠️ **Important**: Make sure to complete all the steps during the setup week, **27.3 - 2.4. 2023**. If you are struggling with any of the steps, tell us in the #setup channel on Slack! In this tutorial, you'll learn:
 
 - Slack usage and etiquette;
 - How to setup your software environment;
@@ -51,6 +51,8 @@ Please choose your operating system:
 
 ## 3. Setup _Git_ and _GitHub_
 
+Click on the image to follow the link.
+
 <table>
   <tr>
     <td>
@@ -63,6 +65,9 @@ Please choose your operating system:
 
 
 ## 4. Setup for all operating systems - Python virtual environment
+
+Click on the image to follow the link.
+
 <table>
   <tr>
     <td>
@@ -75,7 +80,9 @@ Please choose your operating system:
 
 
 ## 5. Weekly workflow
-The workflow that you will follow every week with every new learning unit. Test it on `SLU00 - Jupyter Notebook` from `Week 00`.
+
+The workflow that you will follow every week with every new learning unit. Test it on `SLU00 - Jupyter Notebook` from `Week 00`. Click on the image to follow the link.
+
 <table>
   <tr>
     <td>
@@ -88,7 +95,8 @@ The workflow that you will follow every week with every new learning unit. Test 
 
 
 ## 6. Troubleshooting 
-A few common problems and solutions. If you don't find what you're looking for, check out the #setup channel on Slack.
+
+A few common problems and solutions. If you don't find what you're looking for, check out the #setup channel on Slack. Click on the image to follow the link.
 
 <table>
   <tr>
