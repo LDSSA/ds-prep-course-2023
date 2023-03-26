@@ -1,6 +1,6 @@
 # Weekly workflow
 
-**Each week** a new folder will be released on the [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository. On week 1 (April 3 - April 9), the folder released will be `Week 01`. On week 02, it will be called `Week 02`, and so on. These folders contain the learning units you'll be working on. The releases will be announced on Slack, on the **#announcements** channel.
+**Each week** on Monday a new folder will be released on the [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository. On week 1 (April 3 - April 9), the folder released will be `Week 01`. On week 02, it will be called `Week 02`, and so on. These folders contain the learning units you'll be working on. The releases will be announced on Slack, on the **#announcements** channel. Follow this guide to get and work on the learning materials.
 
 ### 1.1 Get the learning materials
 
