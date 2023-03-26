@@ -8,7 +8,7 @@ Slack is our official communication channel. We will announce the release of the
 
 1. For your sanity, set how and when you want to be notified in `Preferences` -> `Notifications`.
 1. You can install the Slack app on your phone.
-1. Use the channel of the Week you're asking about - more people will see your message, so the chances of receiving a good answer are higher.
+1. Use the channel of the Week you're asking about for questions about the learning material.
 1. Use the #setup channel for technical questions.
 1. Check if your question was already asked before posting.
 1. Always answer in a thread, it helps keep the conversations organized.
