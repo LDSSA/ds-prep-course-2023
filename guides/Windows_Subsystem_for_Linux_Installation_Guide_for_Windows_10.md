@@ -20,7 +20,7 @@ After you're done installing those updates, please [check which OS build of Wind
 
 ## Install the Windows Subsystem for Linux
 
-Before installing any Linux distros for WSL, you must ensure that the `Windows Subsystem for Linux` optional feature is enabled:
+Before installing any Linux distributions for WSL, you must ensure that the `Windows Subsystem for Linux` optional feature is enabled:
 
 1. Open `PowerShell` as Administrator by typing `PowerShell` in your Windows search bar:
 
@@ -47,7 +47,7 @@ and run it by pressing <kbd>enter</kbd>:
 1. Open this link to the [Microsoft Store](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q) and select `Get` to install `Ubuntu`.
 
 ## Launch Ubuntu
-To complete the initialization of your newly `Ubuntu`, launch a new instance. You can do this by typing `ubuntu` in your Windows search bar:
+To complete the initialization of your newly installed `Ubuntu`, launch a new instance. You can do this by typing `ubuntu` in your Windows search bar:
 
 ![start](assets/start.png)
 
