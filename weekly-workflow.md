@@ -66,8 +66,6 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 <a name="link-to-grading"></a>
 **Step 3:** Grading the exercise notebook
 
-[Markdown - Link](#Link)
-
 - Once you've solved all of the exercises, we recommend following this simple checklist to avoid unexpected surprises:
    1. Save the Exercise notebook (again)
    2. Run "Restart & Run All"
