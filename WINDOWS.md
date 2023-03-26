@@ -18,7 +18,7 @@ sudo apt update && sudo apt upgrade && sudo apt install git
 python3.8 --version
 ```
 
-**Step 3.1:** Run the following commands to set up `Python 3.8` (if you get an error with this command, check [this](troubleshooting.md/#6-When-setting-up-python-3.8-I-get-an-error)
+**Step 3.1:** Run the following commands to set up `Python 3.8` (if you get an error with this command, check [this](troubleshooting.md/#6-when-setting-up-python-38-i-get-an-error)
 ). First, add the `deadsnakes repository` - a place from where you will download `Python 3.8`:
 
 ```bash
