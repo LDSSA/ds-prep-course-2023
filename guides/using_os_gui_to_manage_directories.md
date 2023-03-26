@@ -13,10 +13,10 @@ Windows Explorer should pop up now:
 ![Sample learning unit](assets/week_0.png "Sample learning unit")
 
 ## On Mac:
-In Finder <img src='assets/finder.png' alt='Finder' width="4%" height="4%"/>, open the "Go" menu, choose the option "Go to folder..."
+In Finder <img src='assets/finder.png' alt='Finder' width="4%" height="4%"/>, open the `Go` menu, choose the option `Go to folder...`
 
 <img src='assets/go_to_folder.png' alt='Sample learning unit' width="70%"/>
 
-Now paste the path to the `ds-prep-course-2023` repository: `~/projects/ds-prep-course-2023`, then click "Go".
+Now paste the path to the `ds-prep-course-2023` repository: `~/projects/ds-prep-course-2023`, then click `Go`.
 
 <img src='assets/finder_go.png' alt='Sample learning unit' width="90%"/>
