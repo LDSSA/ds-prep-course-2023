@@ -63,6 +63,7 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 
 - Complete the tasks in the **Exercise Notebook**. Don't forget to save your work as you go along!
 
+<a name="link-to-grading"></a>
 **Step 3:** Grading the exercise notebook
 
 - Once you've solved all of the exercises, we recommend following this simple checklist to avoid unexpected surprises:
