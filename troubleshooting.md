@@ -1,13 +1,14 @@
 # Troubleshooting
 
-1. [When I open Windows Explorer through Ubuntu, it goes to a different folder than in the guide](#1-When-I-open-Windows-Explorer-through-Ubuntu,-it-goes-to-a-different-folder-than-in-the-guide)
-1. [Ubuntu on Windows 10 high CPU usage, crashes](#2-ubuntu-on-windows-10-high-cpu-usage,-crashes)
-1. [When I pull from the `ds prep course-2023` repository, I get an error](#3-When-I-pull-from-the-ds-prep-course-2023-repository,-I-get-an-error)
-1. [When I try to open `jupyter notebook`, I get an error](#4-When-I-try-to-open-jupyter-notebook,-I-get-an-error)
-1. [When I use the `cp` command the `>` sign appears and the command does not execute](#5-When-I-use-the-`cp`-command-the->-sign-appears-and-the-command-does-not-execute)
-1. [When setting up python 3.8 I get an error](#6-When-setting-up-python-3.8-I-get-an-error)
-1. [Nothing happens when I type my password](#7-Nothing-happens-when-I-type-my-password)
-1. [I still have a NotImplemented error](#8-I-still-have-a-NotImplemented-error)
+[1. When I open Windows Explorer through Ubuntu, it goes to a different folder than in the guide](#1-when-i-open-windows-explorer-through-ubuntu-it-goes-to-a-different-folder-than-in-the-guide)   
+[2. Ubuntu on Windows 10 high CPU usage, crashes](#2-ubuntu-on-windows-10-high-cpu-usage-crashes)   
+[3. When I pull from the `ds prep course-2023` repository, I get an error](#3-when-i-pull-from-the-ds-prep-course-2023-repository-i-get-an-error)   
+[4. When I try to open `jupyter notebook`, I get an error](#4-when-i-try-to-open-the-jupyter-notebook-i-get-an-error)   
+[5. When I use the `cp` command the `>` sign appears and the command does not execute](#5-when-i-use-the-cp-command-the--sign-appears-and-the-command-does-not-execute)   
+[6. When setting up python 3.8 I get an error](#6-when-setting-up-python-38-i-get-an-error)   
+[7. Nothing happens when I type my password](#7-nothing-happens-when-i-type-my-password)   
+[8. I still have a NotImplemented error](#8-i-still-have-a-notimplemented-error)   
+[9. Tutorial videos from Prep Course 2020](#9-tutorial-videos-from-prep-course-2020)
 
 ### 1. When I open Windows Explorer through Ubuntu, it goes to a different folder than in the guide
 
