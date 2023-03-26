@@ -105,7 +105,7 @@ and your browser should pop up with Jupyter open. However, if this does not happ
    Success!
     {"id":10,"created":"2023-03-26T00:40:17.603128Z","slackid":"UTS63FC02","learning_unit" 0,"exercise_notebook":1,"score":20.0}
    ```
-   Your submission should be on the [portal](https://prep-course-portal.ldsacademy.org/). The submissions are ordered by the learning unit number, then chronologically. The easiest way to find your submission is to search for your Slack ID.
+   Your submission should now be on the [portal](https://prep-course-portal.ldsacademy.org/). The submissions are ordered by the learning unit number, then chronologically. The easiest way to find your submission is to search for your Slack ID.
 
 **Step 4:** Commit and push
 
