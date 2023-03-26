@@ -1,7 +1,7 @@
 # Using the Operating System's Graphical User Interface to access your local repos
 
 ## On WSL with Ubuntu
-Enter the `~/projects/ds-prep-course-2023` directory using the `cd` command, then run `explorer.exe .` **(don't forget to include the dot! the dot means "current directory")** to open Windows explorer in the current directory:
+Enter the `~/projects/ds-prep-course-2023` directory using the `cd` command, then run `explorer.exe .` **(don't forget to include the dot! the dot means "current directory")** to open the Windows explorer in the current directory:
 
 ```bash
 cd ~/projects/ds-prep-course-2023
