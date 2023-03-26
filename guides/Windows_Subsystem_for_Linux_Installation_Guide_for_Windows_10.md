@@ -71,7 +71,7 @@ When you open a new `Ubuntu` instance, you won't be prompted for your password, 
 
 ## Opening the WSL terminal
 
->⚠️ **Important**: From now on, every time we ask you to open a terminal, this is what you need to do. We'll refer to it as just as `terminal` instead of `WSL terminal` or `Ubuntu terminal`.
+>⚠️ **Important**: From now on, every time we ask you to open a terminal, this is what you need to do. We'll refer to it just as `terminal` instead of `WSL terminal` or `Ubuntu terminal`.
 
 Whenever you want to use WSL, just type `ubuntu` in your Windows search bar.
 
@@ -101,7 +101,7 @@ Then under the `Options` tab, in the `Edit Options` section, make sure that `Use
 
 ## Update & upgrade Ubuntu's software packages
 
-Most Linux distributions ship with an empty/minimal software package catalog. We strongly recommend regularly updating your package catalog, and upgrading your installed packages using the appropriate package manager. On `Ubuntu`, you use apt. The following command will check for software updates and install them:
+Most Linux distributions ship with an empty/minimal software package catalog. We strongly recommend regularly updating your package catalog, and upgrading your installed packages using the appropriate package manager. On `Ubuntu`, you use the `apt` package manager. The following command will check for software updates and install them:
 
 ```bash
 sudo apt update && sudo apt upgrade
