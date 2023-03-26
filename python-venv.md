@@ -4,7 +4,7 @@ Virtual environments are like rooms designed to work on a specific project. For 
 
 Python virtual environments are like a "room" where you gather all the Python packages that you will need to work on your Python project. You can have many virtual environments on your computer. Every time you work on a project, you activate the corresponding virtual environment with all the necessary software packages. The virtual environments are independent of each other. The advantage is also that your OS Python installation is unaffected - Ubuntu needs Python and if you break your OS Python installation, you can break Ubuntu. Check out more information [here](https://realpython.com/python-virtual-environments-a-primer/#what-is-a-virtual-environment).
 
-We will use the `venv` software package to create the virtual environment. The virtual environment will be just a folder on your computer where all the necessary software packages are installed. We will be using the same environment for the whole course and install all the packages at the beginning. (If you get into the Academy, there will be different virtual environments for each learning unit.)
+We will use the `venv` software package to create the virtual environment. The virtual environment will be just a folder on your computer where all the necessary software packages are installed. We will be using the same environment for the whole course and install all the packages at the beginning. (In the Academy, there will be a different virtual environment for each learning unit.)
 
 **Step 1:** Start by ensuring that the Python packages `pip`, `setuptools`, and `wheel` are up to date:
 
@@ -39,7 +39,7 @@ pip install -U pip
 **Step 5:**: Navigate to your workspace folder and install the Python packages from the `requirements.txt` file:
 
 ```bash
-cd ~/projects//ds-prep-workspace
+cd ~/projects/ds-prep-workspace
 pip install -r requirements.txt
 ```
 Congratulations! You are now all set up and you can continue to the last step in the main menu - step 6, testing the weekly workflow with `SLU00 - Jupyter Notebook` from `Week 00`.
