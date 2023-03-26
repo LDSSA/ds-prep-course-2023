@@ -48,7 +48,7 @@ Your workspace repository now exists on `GitHub`, but you also need a local copy
 mkdir ~/projects
 ```
 
-**Step 3:** Enter the folder by using the `cd` command. Did you know that `cd` means change directory? So basically changing to a different folder.
+**Step 3:** Enter the folder by using the `cd` command. Did you know that `cd` means **c**hange **d**irectory? So basically changing to a different folder.
 
 ```bash
 cd ~/projects
