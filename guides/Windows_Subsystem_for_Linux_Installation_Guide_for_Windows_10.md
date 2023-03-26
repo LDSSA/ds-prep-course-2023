@@ -55,7 +55,7 @@ To complete the initialization of your newly installed `Ubuntu`, launch a new in
 
 The first time the newly installed `Ubuntu` runs, a `Console` window will open, and you'll be asked to wait for a minute or two for the installation to complete.
 
-> During this final stage of installation, `Ubuntu`'s files are de-compressed and stored on your PC, ready for use. This may take around a minute or more depending on the performance of your PC's storage devices. This initial installation phase is only required just on the first launch - all future launches should take less than a second.
+> During this final stage of installation, `Ubuntu`'s files are de-compressed and stored on your PC, ready for use. This may take around a minute or more depending on the performance of your PC's storage devices. This initial installation phase is only required on the first launch - all future launches should take less than a second.
 
 ## Setting up a new Linux user account
 
@@ -65,9 +65,9 @@ Once the installation is complete, you will be prompted to create a new user acc
 
 This user account is for the normal non-admin user that you'll be logged-in by default when launching `Ubuntu`.
 
-> You can choose any username and password you wish - they have no bearing on your Windows username.
+> You can choose any username and password you wish - they have no bearing on your Windows username. Beware that when you type passwords in the terminal, you will not see what you are typing. This is a normal behaviour in Linux. Just type the password and hit <kbd>Enter</kbd>.
 
-When you open a new `Ubuntu` instance, you won't be prompted for your password, but **if you elevate a process using `sudo`, you will need to enter your password**, so make sure you choose a password you can easily remember! On `Ubuntu`, every user can do admin tasks such as installing software, but they have to use the magic `sudo` word and input the password. This tells `Ubuntu` that you will be acting as admin in the next moments.
+When you open a new `Ubuntu` instance, you won't be prompted for your password, but **if you elevate a process using `sudo`, you will need to enter your password**, so make sure you choose a password you can easily remember! On `Ubuntu`, every user can do admin tasks such as installing software, but they have to use the magic `sudo` word and input the password. This tells `Ubuntu` that you will be acting as admin in the next moments. 
 
 ## Opening the WSL terminal
 
