@@ -88,6 +88,8 @@ The workflow that you will follow every week with every new learning unit. Test 
 
 
 ## 6. Troubleshooting 
+A few common problems and solutions. If you don't find what you're looking for, check out the #setup channel on Slack.
+
 <table>
   <tr>
     <td>
