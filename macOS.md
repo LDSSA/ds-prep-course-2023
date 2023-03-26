@@ -51,7 +51,7 @@ brew install git
 brew install python@3.8
 ```
 
-**Step 6:** then run the following command set the default `python3` version to 3.8:
+**Step 6:** then run the following command to set the default `python3` version to 3.8:
 
 ```bash
 brew link python@3.8
@@ -65,13 +65,13 @@ So you've got the new M1 and you're super happy with how fast it is. Unfortunate
 
 **Step 1:** Open a terminal in one of the following ways:
 * In Finder <img src='media/finder.png' alt='Finder' width="4%" />, open the `/Applications/Utilities` folder, then double-click `Terminal`.
-* By pressing <kbd>cmd</kbd> + <kbd>space</kbd> then type `terminal` and press <kbd>enter</kbd>.
+* Press <kbd>cmd</kbd> + <kbd>space</kbd> then type `terminal` and press <kbd>enter</kbd>.
 
     The terminal should now be open:
 
     <img src='media/mac_terminal.png' width="50%" />
 
-**Step 1.1:** To use intel-based software, you'll need `Rosetta2`. Most of you should already have it installed. If you don't have it yet, simply run the following line in the terminal:
+**Step 1.1:** To use Intel-based software, you'll need `Rosetta2`. Most of you should already have it installed. If you don't have it yet, simply run the following line in the terminal:
 
 ```bash
 softwareupdate --install-rosetta
