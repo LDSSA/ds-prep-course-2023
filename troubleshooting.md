@@ -7,7 +7,7 @@
 [5. When I use the `cp` command the `>` sign appears and the command does not execute](#5-when-i-use-the-cp-command-the--sign-appears-and-the-command-does-not-execute)   
 [6. When setting up python 3.8 I get an error](#6-when-setting-up-python-38-i-get-an-error)   
 [7. Nothing happens when I type my password](#7-nothing-happens-when-i-type-my-password)   
-[8. I still have a NotImplemented error](8-i-still-have-a-notimplemented-error)   
+[8. I still have a NotImplemented error](#8-i-still-have-a-notimplemented-error)   
 [9. Tutorial videos from Prep Course 2020](#9-tutorial-videos-from-prep-course-2020)
 
 ### 1. When I open Windows Explorer through Ubuntu, it goes to a different folder than in the guide
