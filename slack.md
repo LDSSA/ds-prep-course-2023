@@ -1,5 +1,8 @@
 # Slack usage and how to ask for help
 
+### New to Slack?
+Slack is a messaging app for team communication. If you are new to Slack, check out this short [intro](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide). You can find more tutorials [here](https://slack.com/help/categories/360000049063).
+
 ### How to use Slack nicely and effectively
 Slack is our official communication channel. We will announce the release of the weekly learning materials and answer all your questions there. To make it a pleasant and productive experience for everyone, please follow these rules:
 
