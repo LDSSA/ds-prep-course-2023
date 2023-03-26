@@ -17,7 +17,8 @@ cd ~/projects/ds-prep-course-2023/
 git pull
 ```
 
-**Step 3:** Copy the new material to your workspace folder.   
+**Step 3:** Copy the new material to your workspace folder.
+
 **⚠️ Before running the command below:** - If the `"Week <week number>"` folder already exists in your workspace folder, it will be replaced, so make sure you do this **once** and before starting to work on the exercises. Also, make sure that you copy just the new week's folder so that you don't overwrite your previous work.
 
 ```bash
