@@ -83,7 +83,7 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 
    ![terminal notebook](media/terminal_notebook.png)
    
-   4. [Get your Slack ID](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) and submit the notebook to the (portal](https://prep-course-portal.ldsacademy.org/). The virtual environment has to be activated and you have be in the learning unit folder!
+   4. [Get your Slack ID](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) and submit the notebook to the [portal](https://prep-course-portal.ldsacademy.org/). The virtual environment has to be activated and you have be in the learning unit folder!
 
    ```bash
    cd ~/projects/ds-prep-workspace/"Week <week number>"/"<SLU name>"
