@@ -80,7 +80,7 @@ The workflow that you will follow every week with every new learning unit. Test 
   <tr>
     <td>
         <a href="weekly-workflow.md">
-            <img src="media/weekly-workflow.png" alt="weekly-workflow" />
+            <img src="media/weekly-workflow.png" alt="weekly-workflow" height="300"/>
         </a>
     </td>
   </tr>

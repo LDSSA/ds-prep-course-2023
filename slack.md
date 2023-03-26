@@ -13,7 +13,7 @@ Slack is our official communication channel. We will announce the release of the
 1. Check if your question was already asked before posting;
 1. Always answer in a thread, it helps keep the conversations organized;
 1. Use `Shift`+`Enter` for newlines, just `Enter` will send the message;
-1. If you want to report bugs in the materials, you can open an issue on the ds-prep-course-2023 [repo](https://github.com/LDSSA/ds-prep-course-2023/issues/).;
+1. If you want to report bugs in the materials, you can open an issue on the ds-prep-course-2023 [repo](https://github.com/LDSSA/ds-prep-course-2023/issues/);
 1. If you want to give feedback post it in the #feedback channel;
 1. Anything not related with the learning materials should go to the #random channel.
 
