@@ -62,9 +62,9 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 
 **Note:** If you see some  scary looking messages, don't worry, you can just ignore them.
 
-**Step 2:** Work on the learning unit (SLU)
+**Step 2:** Work on the learning unit (SLU).
 
-⚠️ **Important:** **ALWAYS** work on the files in your `ds-prep-workspace` repository. **NEVER** work in the files inside in the `ds-prep-course-2023` repository!
+⚠️ **Important:** **ALWAYS** work on the files in your `ds-prep-workspace` repository. **NEVER** work on the files inside in the `ds-prep-course-2023` repository!
 
 - Study the **Learning Notebook**. You can interact with the notebook and try out the code.
 
@@ -73,7 +73,7 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 <a name="link-to-grading"></a>
 **Step 3:** Grading the exercise notebook
 
-- Once you've solved all of the exercises, we recommend following this simple checklist to avoid unexpected surprises:
+- Once you've solved all the exercises, we recommend following this simple checklist to avoid unexpected surprises:
    1. Save the Exercise notebook (again)
    2. Run "Restart & Run All"
 
@@ -81,7 +81,7 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 
    3. At this point the notebook should have run without any error messages showing up.
 
-   ![terminal notebook](assets/terminal_notebook.png)
+   ![terminal notebook](media/terminal_notebook.png)
    
    4. [Get your Slack ID](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) and submit the notebook to the (portal)[https://prep-course-portal.ldsacademy.org/]. The virtual environment has to be activated and you have be in the learning unit folder!
 
