@@ -2,35 +2,35 @@
 
 ## Make sure that Windows is up to date
 
-1. Type "update" in your Windows search bar
+1. Type `update` in your Windows search bar:
 
 ![start](assets/start.png)
 
-then click "Check for Updates"
+then click `Check for Updates`:
 
 ![start](assets/open_update.png)
 
-then download and install any updates that appear on the Windows Update menu (shown bellow)
+then download and install any updates that appear in the Windows Update menu (shown below):
 
 ![start](assets/windows_update.png)
 
-After you're done installing those updates, please [check which os build of Windows 10 you are running](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running), and if your os build number is smaller that `19041.XXX`, then please keep coming back to Windows Update and installing updates untill you have at least os build `19041.XXX`. Then you may proceed with the guide.
+After you're done installing those updates, please [check which OS build of Windows 10 you are running](https://support.microsoft.com/en-us/help/13443/windows-which-version-am-i-running), and if your OS build number is smaller that `19041.XXX`, then please keep coming back to Windows Update and installing updates until you have at least OS build `19041.XXX`. Then you may proceed with this guide.
 
 ![start](assets/os_build.png)
 
 ## Install the Windows Subsystem for Linux
 
-Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled:
+Before installing any Linux distros for WSL, you must ensure that the `Windows Subsystem for Linux` optional feature is enabled:
 
-1. Open PowerShell as Administrator by typing "PowerShell" in your Windows search bar
+1. Open `PowerShell` as Administrator by typing `PowerShell` in your Windows search bar:
 
 ![start](assets/start.png)
 
-and then clicking "Run as Administrator"
+and then clicking `Run as Administrator`:
 
 ![start](assets/open_powershell.png)
 
-2. Then paste the following command on PowerShell
+2. Then paste the following command in `PowerShell`:
 
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
@@ -42,39 +42,38 @@ and run it by pressing <kbd>enter</kbd>:
 
 3. Restart your computer if asked to.
 
-## Install your Linux Distribution of Choice
+## Install Ubuntu
 
-1. Open the this link to the [Microsoft Store](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q) and select "Get" to install Ubuntu.
+1. Open this link to the [Microsoft Store](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q) and select `Get` to install `Ubuntu`.
 
-
-## Launch a distro
-To complete the initialization of your newly installed distro, launch a new instance. You can do this by typing "ubuntu" in your Windows search bar
+## Launch Ubuntu
+To complete the initialization of your newly `Ubuntu`, launch a new instance. You can do this by typing `ubuntu` in your Windows search bar:
 
 ![start](assets/start.png)
 
 ![start](assets/open_ubuntu.png)
 
-The first time a newly installed distro runs, a Console window will open, and you'll be asked to wait for a minute or two for the installation to complete.
+The first time the newly installed `Ubuntu` runs, a `Console` window will open, and you'll be asked to wait for a minute or two for the installation to complete.
 
-> During this final stage of installation, the distro's files are de-compressed and stored on your PC, ready for use. This may take around a minute or more depending on the performance of your PC's storage devices. This initial installation phase is only required when a distro is clean-installed - all future launches should take less than a second.
+> During this final stage of installation, `Ubuntu`'s files are de-compressed and stored on your PC, ready for use. This may take around a minute or more depending on the performance of your PC's storage devices. This initial installation phase is only required just on the first launch - all future launches should take less than a second.
 
 ## Setting up a new Linux user account
 
-Once installation is complete, you will be prompted to create a new user account (and its password).
+Once the installation is complete, you will be prompted to create a new user account (and its password).
 
 ![Ubuntu unpacking in the Windows console](assets/UbuntuInstall.png)
 
-This user account is for the normal non-admin user that you'll be logged-in as by default when launching a distro.
+This user account is for the normal non-admin user that you'll be logged-in by default when launching `Ubuntu`.
 
 > You can choose any username and password you wish - they have no bearing on your Windows username.
 
-When you open a new distro instance, you won't be prompted for your password, but **if you elevate a process using `sudo`, you will need to enter your password**, so make sure you choose a password you can easily remember!
+When you open a new `Ubuntu` instance, you won't be prompted for your password, but **if you elevate a process using `sudo`, you will need to enter your password**, so make sure you choose a password you can easily remember! On `Ubuntu`, every user can do admin tasks such as installing software, but they have to use the magic `sudo` word and input the password. This tells `Ubuntu` that you will be acting as admin in the next moments.
 
 ## Opening the WSL terminal
 
->⚠️ **Important**: From now on, every time we ask you to open a terminal, this is what you need to do. We'll refer to it as just "terminal" instead of "WSL terminal" or "Ubuntu terminal"
+>⚠️ **Important**: From now on, every time we ask you to open a terminal, this is what you need to do. We'll refer to it as just as `terminal` instead of `WSL terminal` or `Ubuntu terminal`.
 
-Whenever you want to use WSL, just type "ubuntu" in your Windows search bar
+Whenever you want to use WSL, just type `ubuntu` in your Windows search bar.
 
 ![start](assets/start.png)
 
@@ -82,46 +81,46 @@ Open it:
 
 ![start](assets/open_ubuntu.png)
 
-Then a terminal window will open that allows you to interact with Ubuntu.
+Then a `terminal` window will open that allows you to interact with `Ubuntu`.
 
 ![Ubuntu unpacking in the Windows console](assets/orange_circle.png)
 
 ## Enable copy and paste keyboard shortcuts
 
-In the upper left corner of the WSL terminal, click the orange circle
+By default, the terminal does not allow the usual shortcuts for copying and pasting - you have to enable them first. In the upper left corner of the WSL terminal, click the orange circle:
 
 ![Ubuntu unpacking in the Windows console](assets/orange_circle.png)
 
-then click "Properties"
+then click `Properties`:
 
 ![Ubuntu unpacking in the Windows console](assets/orange_circle_properties.png)
 
-Then under the "Options" tab, in the Edit Options section, make sure that "Use Ctrl+Shift+C/V as Copy/Paste" in enabled, then click "OK"
+Then under the `Options` tab, in the `Edit Options` section, make sure that `Use Ctrl+Shift+C/V as Copy/Paste` in enabled and click `OK`:
 
 ![Ubuntu unpacking in the Windows console](assets/copy_paste_properties.png)
 
-## Update & upgrade your distro's packages
+## Update & upgrade Ubuntu's software packages
 
-Most distros ship with an empty/minimal package catalog. We strongly recommend regularly updating your package catalog, and upgrading your installed packages using your distro's preferred package manager. On Debian/Ubuntu, you use apt:
+Most Linux distributions ship with an empty/minimal software package catalog. We strongly recommend regularly updating your package catalog, and upgrading your installed packages using the appropriate package manager. On `Ubuntu`, you use apt. The following command will check for software updates and install them:
 
 ```bash
 sudo apt update && sudo apt upgrade
 ```
 
-> Windows does not automatically update or upgrade your Linux distro(s): This is a task that the Linux users prefer to control themselves.
+> Windows does not automatically update or upgrade your Linux distribution. This is a task that the Linux users prefer to control themselves.
 
 ## How to open Windows File Explorer to manipulate files inside WSL
 
-If you’d like to use Windows File Explorer to manipulate the files in WSL, just type this in the WSL terminal **(don't forget to include the dot! the dot means "current directory")**:
+If you’d like to use `Windows File Explorer` to manipulate the files in WSL, just type this in the `terminal`. **(Don't forget to include the dot! The dot means "current directory")**:
 
 ```console
-mig@DESKTOP-GKLQ11P:~$ explorer.exe .
+explorer.exe .
 ```
 
-The Windows Explorer should pop up:
+The `Windows Explorer` should pop up:
 
 ![start](assets/windows_explorer.png)
 
 Keep in mind that you should manipulate files and create directories inside your `Ubuntu-18.04/home/<your name>` folder.
 
-Don't forget to continue the [**Initial Setup**](/./README.md)!!
+You're all set with WSL! Now go back to the initial setup for Windows and continue with step 2.
