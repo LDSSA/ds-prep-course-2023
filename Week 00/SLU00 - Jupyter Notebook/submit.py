@@ -1,9 +1,20 @@
-import requests
+#python submit.py --slackid <your slackid>
+#python submit.py --slackid "UTS63FC02"
 
+import requests
+import os
+import re
+import click
 from nbgrader import utils
 from traitlets.config import Config
 import nbconvert
 import nbformat
+
+###############################################################################
+# Variables
+###############################################################################
+notebook_number=''
+
 
 ###############################################################################
 # Grading
@@ -35,49 +46,57 @@ def execute(notebook, timeout=None, allow_errors=True):
 
     return nbformat.reads(notebook, as_version=nbformat.NO_CONVERT)
 
-def get_grade(notebook_path='Exercise notebook.ipynb'):
+def get_grade(notebook_path=str):
     '''Gets the grade for the given notebook.'''
     notebook = nbformat.read(notebook_path, as_version=nbformat.NO_CONVERT)
     notebook = execute(notebook)
     total_score, max_score = grade(notebook)
-
+    print(total_score)
     return total_score
 
 ###############################################################################
 # Submitting
 ###############################################################################
 
-def submit(learning_unit: int, exercise_notebook: int, slackid: str, score: float) -> None:
+def submit_to_portal(slackid:str, score: float) -> None:
     '''
     Submits the notebook.
-
     Parameters:
-        url: like "https://sub-nb-grades-collector.herokuapp.com/submit"
-        learning_unit: like 0
-        exercise_notebook: like 0
+        exercise_notebook: like 1
         slackid: like "UTS63FC02"
         score: like 16.0
     '''
+    #get the learning unit number from the path
+    path=os.getcwd()
+    path_split=path.split('/')
+    lunit=int(re.findall('[0-9][0-9]',path_split[-1])[0])
+
     data = {
-        "learning_unit": learning_unit,
-        "exercise_notebook": exercise_notebook,
+        "learning_unit": lunit,
+        "exercise_notebook": 1,
         "slackid": slackid,
         "score": score,
     }
-    response = requests.post('https://prep-course-portal.ldsacademy.org/submissions/', json=data)
-    print('Success' if response.ok else 'Whoopsie Daisy', response.text)
+    print(data)
+    response = requests.post('https://prep-course-portal.ldsacademy.org/submissions/', json=data) 
+    print('Success!\n' if response.ok else 'Whoopsie Daisy', response.text)
 
-def grade_submit(notebook_name: str = 'Exercise notebook.ipynb', **kwargs) -> None:
+@click.command()
+@click.option('--slackid', help='slackid: like "UTS63FC02"', required=True)
+def grade_submit(**kwargs) -> None:
     '''
     Grades the notebook and submits the grade to the prep course portal.
-
     Parameters:
-        notebook_name: the name of the exercise notebook
+        notebook_number: like '', ' 1' - global variable defined on top
         slackid: like "UTS63FC02"
         score: like 16.0
     '''
     # TODO change once we releace most recent verion of ldsagrader to pip
     # from ldsagrader import notebook_grade
     # notebook_grade(notebook=notebook_name, checksum=None, timeout=None)['total_score']
-    kwargs['score'] = get_grade(notebook_name)
-    submit(**kwargs)
+    exercise_notebook='Exercise notebook'+notebook_number+'.ipynb'
+    kwargs['score'] = get_grade(exercise_notebook)
+    submit_to_portal(**kwargs)
+
+if __name__ == '__main__':
+    grade_submit()
