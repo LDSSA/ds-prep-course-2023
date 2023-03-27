@@ -33,11 +33,11 @@ Please commit your changes or stash them before you merge.
 Aborting
 ```
 
-what `git` is telling you is that changes were made by you to the files in the `~/projects/ds-prep-course-2023` folder, and is not pulling the changes made by the instructors because they would overwrite the changes that you made there.
+what `git` is telling you is that changes were made by you to the files in the `~/projects/ds-prep-course-2023` folder, and therefore it is not pulling the changes made by the instructors because they would overwrite the changes made by you.
 
 To fix this do the following:
 
-1. Make sure that any change you made to the files on `~/projects/ds-prep-course-2023`  (that you don't want to lose) is saved in your `~/projects/ds-prep-workspace` repository (refer to [Updates to Learning Units](weekly-workflow.md#1.4-Updates-of-the-learning-units) on how to do this), and if you don't want to keep the changes you made to these files, just continue on to the next step.
+1. Make sure that any changes you made to the files in `~/projects/ds-prep-course-2023`  (that you don't want to lose) are saved in your `~/projects/ds-prep-workspace` repository (refer to [Updates of the learning units](weekly-workflow.md#14-updates-of-the-learning-units) on how to do this). If you don't want to keep the changes you made to these files, just continue on to the next step.
 2. Go to the `~/projects/ds-prep-course-2023` folder and run:
 
     ```bash
@@ -82,7 +82,7 @@ I get this error:
 W: GPG error: http://apt.postgresql.org/pub/repos/apt focal-pgdg InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7FCC7D46ACCC4CF8
 ```
 
-Solution: Take the id in front of `NO_PUBKEY` (in my case its `7FCC7D46ACCC4CF8`) and run the following command:
+Solution: Take the id in front of `NO_PUBKEY` (in my case it's `7FCC7D46ACCC4CF8`) and run the following command:
 
 ```bash
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7FCC7D46ACCC4CF8
@@ -97,7 +97,7 @@ When you type your password in the terminal, it is not visible. This is normal, 
 I've completed the exercise in the Exercise Notebook but when I run the cell I get a **NotImplementedError**.
 
 Solution:
-The `raise NotImplementedError()` are added to the exercise cell as a placeholder for where you're supposed to add your solution/code. It is meant to be removed!
+The `raise NotImplementedError()` is added to the exercise cell as a placeholder for where you're supposed to add your solution/code. It is meant to be removed!
 
 ### 9. Tutorial videos from Prep Course 2020
 

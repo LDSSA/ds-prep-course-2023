@@ -1,6 +1,6 @@
 # Weekly workflow
 
-**Each week** a new folder will be released on the [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository. On week 1 (April 3 - April 9), the folder released will be `"Week 01"`. On week 02, it will be called `"Week 02"`, and so on. These folders contain the learning units you'll be working on. The releases will be announced on Slack, on the **#announcements** channel.
+**Each week** on Monday a new folder will be released on the [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository. On week 1 (April 3 - April 9), the folder released will be `Week 01`. On week 02, it will be called `Week 02`, and so on. These folders contain the learning units you'll be working on. The releases will be announced on Slack, on the **#announcements** channel. Follow this guide to get and work on the learning materials.
 
 ### 1.1 Get the learning materials
 
@@ -17,7 +17,8 @@ cd ~/projects/ds-prep-course-2023/
 git pull
 ```
 
-**Step 3:** Copy the new material to your workspace folder.   
+**Step 3:** Copy the new material to your workspace folder.
+
 **⚠️ Before running the command below:** - If the `"Week <week number>"` folder already exists in your workspace folder, it will be replaced, so make sure you do this **once** and before starting to work on the exercises. Also, make sure that you copy just the new week's folder so that you don't overwrite your previous work.
 
 ```bash
@@ -29,7 +30,7 @@ Note that we are using quotes in the path because it contains spaces. Example fo
 cp -r ~/projects/ds-prep-course-2023/"Week 01" ~/projects/ds-prep-workspace/
 ```
 
-If you're curious about how you can do this using your OS check [GUI this guide](guides/using_os_gui_to_manage_directories.md)
+If you're curious about how you can do this using your OS GUI [check this guide](guides/using_os_gui_to_manage_directories.md)
 
 ### 1.2. Activate the `prep-venv` environment you created in the initial setup
 
@@ -41,7 +42,13 @@ source ~/.virtualenvs/prep-venv/bin/activate
 
 All learning units come as a set of **Jupyter Notebooks**. These are documents that can contain text, images and live code that you can run interactively. You will learn how to use the Jupyter Notebooks in Week 00.
 
-Make sure that you are in your workspace folder and that the virtual environment is activated. Then follow the steps below.
+Navigate to your workspace folder:
+
+```bash
+cd ~/projects/ds-prep-workspace
+```
+
+Then follow the steps below.
 
 **Step 1:** Open the Jupyter Notebook application by running:
 
@@ -55,9 +62,9 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 
 **Note:** If you see some  scary looking messages, don't worry, you can just ignore them.
 
-**Step 2:** Work on the learning unit (SLU)
+**Step 2:** Work on the learning unit (SLU).
 
-⚠️ **Important:** **ALWAYS** work on the files in your `ds-prep-workspace` repository. **NEVER** work in the files inside in the `ds-prep-course-2023` repository!
+⚠️ **Important:** **ALWAYS** work on the files in your `ds-prep-workspace` repository. **NEVER** work on the files inside in the `ds-prep-course-2023` repository!
 
 - Study the **Learning Notebook**. You can interact with the notebook and try out the code.
 
@@ -66,7 +73,7 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 <a name="link-to-grading"></a>
 **Step 3:** Grading the exercise notebook
 
-- Once you've solved all of the exercises, we recommend following this simple checklist to avoid unexpected surprises:
+- Once you've solved all the exercises, we recommend following this simple checklist to avoid unexpected surprises:
    1. Save the Exercise notebook (again)
    2. Run "Restart & Run All"
 
@@ -74,9 +81,9 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 
    3. At this point the notebook should have run without any error messages showing up.
 
-   ![terminal notebook](assets/terminal_notebook.png)
+   ![terminal notebook](media/terminal_notebook.png)
    
-   4. [Get your Slack ID](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) and submit the notebook to the (portal)[https://prep-course-portal.ldsacademy.org/]. The virtual environment has to be activated and you have be in the learning unit folder!
+   4. [Get your Slack ID](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) and submit the notebook to the [portal](https://prep-course-portal.ldsacademy.org/). The virtual environment has to be activated and you have be in the learning unit folder!
 
    ```bash
    cd ~/projects/ds-prep-workspace/"Week <week number>"/"<SLU name>"
@@ -98,7 +105,7 @@ and your browser should pop up with Jupyter open. However, if this does not happ
    Success!
     {"id":10,"created":"2023-03-26T00:40:17.603128Z","slackid":"UTS63FC02","learning_unit" 0,"exercise_notebook":1,"score":20.0}
    ```
-   Your submission should be on the [portal](https://prep-course-portal.ldsacademy.org/). The submissions are ordered by the learning unit number, then chronologically. The easiest way to find your submission is to search for your Slack ID.
+   Your submission should now be on the [portal](https://prep-course-portal.ldsacademy.org/). The submissions are ordered by the learning unit number, then chronologically. The easiest way to find your submission is to search for your Slack ID.
 
 **Step 4:** Commit and push
 
@@ -130,11 +137,11 @@ Now is the time to transfer your work from the local workspace repo to the remot
 
 As much as we try and have processes in place to prevent errors and bugs in the learning units, some make it through to you. 
 
-If the problem is not in the exercise notebook you can just pull the new version from the `ds-prep-course-2023` repo and replace the file in your `ds-prep-workspace` (steps 1 and 2 from last section). Make sure to replace just the new file and not overwrite any work you did in the exercise notebook.
+If the problem is not in the exercise notebook you can just pull the new version from the `ds-prep-course-2023` repo and replace the file in your `ds-prep-workspace` (steps 1 and 2 from [section 1.1](#11-get-the-learning-materials)). Make sure to replace just the new file and not overwrite any work you already did in the exercise notebook.
 
 If the correction is in the exercise notebook, however, you can't just replace the file because your work is there and you'll lose it!
 
-When a new version of the exercise notebook is released (and announced) you will have copy the work you already did to the new version of the notebook:
+When a new version of the exercise notebook is released (and announced) you will have to copy the work you already did to the new version of the notebook:
 
 1. Rename the old exercise notebook;
 1. Copy the new exercise notebook over;

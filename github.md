@@ -48,20 +48,20 @@ Your workspace repository now exists on `GitHub`, but you also need a local copy
 mkdir ~/projects
 ```
 
-**Step 3:** Enter the folder by using the `cd` command. Did you know that `cd` means change directory? So basically changing to a different folder.
+**Step 3:** Enter the folder by using the `cd` command. Did you know that `cd` means **c**hange **d**irectory? So basically changing to a different folder.
 
 ```bash
 cd ~/projects
 ```
 
-**Step 4:** You can now **clone** (create a local copy) the `ds-prep-workspace` repository you created on `GitHub`.
+**Step 4:** You can now **clone** (create a local copy of) the `ds-prep-workspace` repository you created on `GitHub`.
 Replace `<username>` below with your `GitHub` username, removing the brackets `< >`, and run the command:
 
 ```bash
 git clone https://github.com/<username>/ds-prep-workspace.git
 ```
 
-   **Note**: if you have had a `GitHub` account since before this course and you are using `ssh keys` instead of `tokens`, first make sure that you have completed the steps starting [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys), then close your repository like this. You can skip step 5 and continue with section 2.4.
+   **Note**: if you have had a `GitHub` account since before this course and you are using `ssh keys` instead of `tokens`, first make sure that you have completed the steps starting [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys), then clone your repository like this. You can skip step 5 and continue with section 2.4.
 
    ```bash
    git clone git@github.com:<username>/ds-prep-workspace.git
@@ -75,11 +75,11 @@ Now use the `token` instead of your password and press <kbd>enter</kbd>
 
 You should now have a local copy of your `ds-prep-workspace` in your `~/projects/ds-prep-workspace` folder.
 
-<img src='assets/personal_access_token.PNG' width="75%" />
+<img src='media/personal_access_token.PNG' width="75%" />
 
 ### 2.4 Clone the `ds-prep-course-2023` repository
 
-Let's clone the [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository for `ds-prep-workspace`. This is where all of the learning materials will be made available, as the academy progresses. You will be getting them (pulling) from there.
+Let's clone the [`ds-prep-course-2023`](https://github.com/LDSSA/ds-prep-course-2023) repository. This is where all of the learning materials will be made available as the prep course progresses. You will be getting them (pulling) from there.
 
 **Step 1:** Open a terminal (or use one you've already opened) and enter the `projects` folder:
 
