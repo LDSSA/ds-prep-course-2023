@@ -37,7 +37,7 @@ what `git` is telling you is that changes were made by you to the files in the `
 
 To fix this do the following:
 
-1. Make sure that any changes you made to the files in `~/projects/ds-prep-course-2023`  (that you don't want to lose) is saved in your `~/projects/ds-prep-workspace` repository (refer to [Updates to Learning Units](weekly-workflow.md##14-updates-of-the-learning-units) on how to do this), and if you don't want to keep the changes you made to these files, just continue on to the next step.
+1. Make sure that any changes you made to the files in `~/projects/ds-prep-course-2023`  (that you don't want to lose) are saved in your `~/projects/ds-prep-workspace` repository (refer to [Updates of the learning Units](weekly-workflow.md#14-updates-of-the-learning-units) on how to do this), and if you don't want to keep the changes you made to these files, just continue on to the next step.
 2. Go to the `~/projects/ds-prep-course-2023` folder and run:
 
     ```bash
