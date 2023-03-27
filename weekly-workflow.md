@@ -137,7 +137,7 @@ Now is the time to transfer your work from the local workspace repo to the remot
 
 As much as we try and have processes in place to prevent errors and bugs in the learning units, some make it through to you. 
 
-If the problem is not in the exercise notebook you can just pull the new version from the `ds-prep-course-2023` repo and replace the file in your `ds-prep-workspace` (steps 1 and 2 from last section). Make sure to replace just the new file and not overwrite any work you did in the exercise notebook.
+If the problem is not in the exercise notebook you can just pull the new version from the `ds-prep-course-2023` repo and replace the file in your `ds-prep-workspace` (steps 1 and 2 from [section 1.1](#1.1-Getthe-learning-materials)). Make sure to replace just the new file and not overwrite any work you did in the exercise notebook.
 
 If the correction is in the exercise notebook, however, you can't just replace the file because your work is there and you'll lose it!
 
