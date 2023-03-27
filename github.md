@@ -99,10 +99,10 @@ If you are using `ssh keys` for `GitHub`, use this command:
 git clone git@github.com:LDSSA/ds-prep-course-2023.git
 ```
 
-**Step 3:** Copy the contents of the local prep course repository to your local workspace repository. The `cp` bash command means **c**o**p**y. The `-r` stands for `recursive` and is necessary when you are copying folders (as opposed to files). Then you have the address of the folder that is being copied and to where it is copied.
+**Step 3:** Copy the `requirements.txt` file from the prep course repository to your local workspace repository. The `cp` bash command means **c**o**p**y.  Then you have the address of the file that is being copied and to where it is copied.
 
 ```bash
-cp -r ~/projects/ds-prep-course-2023/ ~/projects/ds-prep-workspace
+cp -r ~/projects/ds-prep-course-2023/* ~/projects/ds-prep-workspace
 ```
 
 And you're done with setting `Git` and `GitHub`! Go back to the main menu and continue with step 4, setting up the virtual environment.
