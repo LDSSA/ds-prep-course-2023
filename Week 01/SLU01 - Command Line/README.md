@@ -1,6 +1,6 @@
 ## Welcome to SLU01 - Command Line
 
-In this learning unit, you will get more familiar with your new working environment, the terminal and the command line.
+In this learning unit, you will get more familiar with your new working environment - the terminal and the command line.
 
 You have been using the terminal with the command line during the setup and you will continue to use it throughout the course, at least for interactions with git. The commands used on the command line are from a language called shell, in our case the bash shell. Shell is a language providing command line user interface on Unix-like operating systems like Ubuntu or MacOS. Put simply, you can talk to the operating system in this language. In this SLU you will learn about the following bash commands:
 
@@ -25,5 +25,4 @@ You have been using the terminal with the command line during the setup and you 
 
 ## "I need help understanding something"
 
-You can and should ask for help, be it about Learning Notebooks, Exercises, or anything else. Please checkout the [How to Ask for Help](https://github.com/LDSSA/ds-prep-course-2023/blob/main/slack.md), and remember not to share code when asking for help about the exercises!
-
+You can and should ask for help, be it about learning notebooks, exercises, or anything else. Please checkout the [How to Ask for Help](https://github.com/LDSSA/ds-prep-course-2023/blob/main/slack.md), and remember not to share code when asking for help about the exercises!
