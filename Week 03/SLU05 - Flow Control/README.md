@@ -10,6 +10,10 @@ We'll then be (healthily) lazy and tell Python to repeat code without writing th
 
 We'll conclude with a new method of building lists.
 
+After going through the Learning Notebooks you should try your new skills in the Practice Notebook before heading to the Exercise Notebook!
+This chapter is a big step forward in your programming journey and it might take a bit more effort than the previous chapters. The Practice Notebook, even though ungraded, is meant to help you get more comfortable with Flow Control in Python and be more at ease when solving the Exercise Notebook. 
+
+
 ---
 Take the fate of your code into your own hands. 
 ---
