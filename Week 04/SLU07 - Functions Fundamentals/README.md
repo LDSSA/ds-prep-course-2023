@@ -25,7 +25,4 @@ You are probably already familiar with the process but in case you aren't these 
 
 ## "I need help understanding something"
 
-You can and should ask for help, be it about Learning Notebooks, Exercises, or anything else. Please check the [How to Ask for Help](https://github.com/LDSSA/ds-prep-course-2022#4-how-to-ask-for-help), and remember not to share code when asking for help about the exercises!
-
-## Additional notes
-Don't forget to install the requirements using the `requirements.txt` file for this SLU!
+You can and should ask for help, be it about Learning Notebooks, Exercises, or anything else. Please check the [How to Ask for Help](https://github.com/LDSSA/ds-prep-course-2023/blob/main/slack.md), and remember not to share code when asking for help about the exercises!
