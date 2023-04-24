@@ -103,6 +103,3 @@ def grade_submit(**kwargs) -> None:
     #general regex for slackid "^[UW][A-Z0-9]{2,}$"
     #regex for prep course 2023 slackid (11 characters) "^U0[45][A-Z0-9]{8}$"
     submit_to_portal(**kwargs)
-
-if __name__ == '__main__':
-    grade_submit()
