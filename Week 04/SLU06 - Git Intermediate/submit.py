@@ -51,14 +51,14 @@ def get_grade(notebook_path=str):
     notebook = nbformat.read(notebook_path, as_version=nbformat.NO_CONVERT)
     notebook = execute(notebook)
     total_score, max_score = grade(notebook)
-    print('total score: ', total_score)
+    print('total score:', total_score)
     return total_score
 
 ###############################################################################
 # Submitting
 ###############################################################################
 
-def submit_to_portal(slackid:str, score: float) -> None:
+def submit_to_portal(slackid: str, score: float) -> None:
     '''
     Submits the notebook.
     Parameters:
@@ -66,11 +66,11 @@ def submit_to_portal(slackid:str, score: float) -> None:
         slackid: like "U04S63FC02A"
         score: like 16.0
     '''
-    if re.search("^U0[45][A-Z0-9]{8}$", slackid):
+    if re.search("^U0[45][A-Z0-9]{8,8}$", slackid):
         #get the learning unit number from the path
         path=os.getcwd()
         path_split=path.split('/')
-        lunit=int(re.findall('[0-9][0-9]',path_split[-1])[0])
+        lunit=int(re.findall('[0-9][0-9]', path_split[-1])[0])
 
         data = {
             "learning_unit": lunit,
@@ -83,7 +83,7 @@ def submit_to_portal(slackid:str, score: float) -> None:
         print('Success!\n' if response.ok else 'Whoopsie Daisy', response.text)
     else:
         print('Fail - invalid slackid:', slackid)
-        print('Check your slackid and try again. Example of a valid slackid: "U04S63FC02A"')
+        print('Check you slackid and try again. Example of a valid slackid: "U04S63FC02A"')
 
 @click.command()
 @click.option('--slackid', help='slackid: like "U04S63FC02A"', required=True)
@@ -98,8 +98,11 @@ def grade_submit(**kwargs) -> None:
     # TODO change once we releace most recent verion of ldsagrader to pip
     # from ldsagrader import notebook_grade
     # notebook_grade(notebook=notebook_name, checksum=None, timeout=None)['total_score']
-    exercise_notebook ='Exercise notebook' + notebook_number + '.ipynb'
+    exercise_notebook='Exercise notebook'+notebook_number+'.ipynb'
     kwargs['score'] = get_grade(exercise_notebook)
-    #general regex for slackid "^[UW][A-Z0-9]{2,}$"
-    #regex for prep course 2023 slackid (11 characters) "^U0[45][A-Z0-9]{8}$"
+    #general regex for slackid  "^[UW][A-Z0-9]{2,}$"
+    #regex for prep course 2023 slackid (11 characters) "^U0[45][A-Z0-9]{8,8}$"
     submit_to_portal(**kwargs)
+
+if __name__ == '__main__':
+    grade_submit()
