@@ -78,14 +78,18 @@ and your browser should pop up with Jupyter open. However, if this does not happ
    2. Run "Restart & Run All"
 
    ![Restart & Run All](media/jupyter_clear_and_run.png)
-
+   
    3. At this point the notebook should have run without any error messages showing up.
 
    ![terminal notebook](media/terminal_notebook.png)
 
-   4. Close all the notebooks, return to the terminal and stop the notebook server by typing `Ctrl+C+C` (`Ctrl` and `C` two times).
+   4. Ensure that the last cell of the notebook has been executed as represented by a number between brackets beside the top left of the cell. If instead of a number you see a '\*', the cell is still busy and the exercise notebook is not ready for submission.
    
-   5. [Get your Slack ID](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) and submit the notebook to the [portal](https://prep-course-portal.ldsacademy.org/). The virtual environment has to be activated and you have be in the learning unit folder!
+   ![notebook_busy_cell](media/notebook_busy_cell.png)
+
+   5. Close all the notebooks, return to the terminal and stop the notebook server by typing `Ctrl+C+C` (`Ctrl` and `C` two times).
+   
+   6. [Get your Slack ID](https://moshfeu.medium.com/how-to-find-my-member-id-in-slack-workspace-d4bba942e38c) and submit the notebook to the [portal](https://prep-course-portal.ldsacademy.org/). The virtual environment has to be activated and you have be in the learning unit folder!
 
    ```bash
    cd ~/projects/ds-prep-workspace/"Week <week number>"/"<SLU name>"
