@@ -79,13 +79,13 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 
    ![Restart & Run All](media/jupyter_clear_and_run.png)
    
-   3. At this point the notebook should have run without any error messages showing up.
-
-   ![terminal notebook](media/terminal_notebook.png)
-
-   4. Ensure that the last cell of the notebook has been executed as represented by a number between brackets beside the top left of the cell. If instead of a number you see a '\*', the cell is still busy and the exercise notebook is not ready for submission.
+   3. Ensure that the last cell of the notebook has been executed as represented by a number between brackets beside the top left of the cell. If instead of a number you see a '\*', the cell is still busy and the exercise notebook is not ready for submission.
    
    ![notebook_busy_cell](media/notebook_busy_cell.png)
+
+   4. At this point the notebook should have run without any error messages showing up.
+
+   ![terminal notebook](media/terminal_notebook.png)
 
    5. Close all the notebooks, return to the terminal and stop the notebook server by typing `Ctrl+C+C` (`Ctrl` and `C` two times).
    
