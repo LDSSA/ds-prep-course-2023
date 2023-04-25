@@ -1,5 +1,5 @@
 #python submit.py --slackid <your slackid>
-#python submit.py --slackid "UTS63FC02"
+#python submit.py --slackid "U04ST63FC02"
 
 import requests
 import os
@@ -51,7 +51,7 @@ def get_grade(notebook_path=str):
     notebook = nbformat.read(notebook_path, as_version=nbformat.NO_CONVERT)
     notebook = execute(notebook)
     total_score, max_score = grade(notebook)
-    print(total_score)
+    print('total score:',total_score)
     return total_score
 
 ###############################################################################
@@ -63,23 +63,27 @@ def submit_to_portal(slackid:str, score: float) -> None:
     Submits the notebook.
     Parameters:
         exercise_notebook: like 1
-        slackid: like "UTS63FC02"
+        slackid: like "U04TS63FC02"
         score: like 16.0
     '''
-    #get the learning unit number from the path
-    path=os.getcwd()
-    path_split=path.split('/')
-    lunit=int(re.findall('[0-9][0-9]',path_split[-1])[0])
+    if re.search("^U0[45][A-Z0-9]{8,8}$",slackid):
+        #get the learning unit number from the path
+        path=os.getcwd()
+        path_split=path.split('/')
+        lunit=int(re.findall('[0-9][0-9]',path_split[-1])[0])
 
-    data = {
-        "learning_unit": lunit,
-        "exercise_notebook": 1,
-        "slackid": slackid,
-        "score": score,
-    }
-    print(data)
-    response = requests.post('https://prep-course-portal.ldsacademy.org/submissions/', json=data) 
-    print('Success!\n' if response.ok else 'Whoopsie Daisy', response.text)
+        data = {
+            "learning_unit": lunit,
+            "exercise_notebook": 1,
+            "slackid": slackid,
+            "score": score,
+        }
+        print(data)
+        response = requests.post('https://prep-course-portal.ldsacademy.org/submissions/', json=data) 
+        print('Success!\n' if response.ok else 'Whoopsie Daisy', response.text)
+    else:
+        print('Fail - invalid slackid:',slackid)
+        print('Check you slackid and try again. Example of a valid slackid: "UTS63FC02"')
 
 @click.command()
 @click.option('--slackid', help='slackid: like "UTS63FC02"', required=True)
@@ -88,7 +92,7 @@ def grade_submit(**kwargs) -> None:
     Grades the notebook and submits the grade to the prep course portal.
     Parameters:
         notebook_number: like '', ' 1' - global variable defined on top
-        slackid: like "UTS63FC02"
+        slackid: like "U04TS63FC02"
         score: like 16.0
     '''
     # TODO change once we releace most recent verion of ldsagrader to pip
@@ -96,6 +100,8 @@ def grade_submit(**kwargs) -> None:
     # notebook_grade(notebook=notebook_name, checksum=None, timeout=None)['total_score']
     exercise_notebook='Exercise notebook'+notebook_number+'.ipynb'
     kwargs['score'] = get_grade(exercise_notebook)
+    #general regex for slackid  "^[UW][A-Z0-9]{2,}$"
+    #regex for prep course 2023 slackid (11 characters) "^U0[45][A-Z0-9]{8,8}$"
     submit_to_portal(**kwargs)
 
 if __name__ == '__main__':

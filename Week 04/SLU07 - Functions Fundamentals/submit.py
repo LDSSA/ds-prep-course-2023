@@ -1,5 +1,5 @@
 #python submit.py --slackid <your slackid>
-#python submit.py --slackid "UTS63FC02"
+#python submit.py --slackid "U04ST63FC02"
 
 import requests
 import os
@@ -63,7 +63,7 @@ def submit_to_portal(slackid:str, score: float) -> None:
     Submits the notebook.
     Parameters:
         exercise_notebook: like 1
-        slackid: like "UTS63FC02"
+        slackid: like "U04TS63FC02"
         score: like 16.0
     '''
     if re.search("^U0[45][A-Z0-9]{8,8}$",slackid):
@@ -92,7 +92,7 @@ def grade_submit(**kwargs) -> None:
     Grades the notebook and submits the grade to the prep course portal.
     Parameters:
         notebook_number: like '', ' 1' - global variable defined on top
-        slackid: like "UTS63FC02"
+        slackid: like "U04TS63FC02"
         score: like 16.0
     '''
     # TODO change once we releace most recent verion of ldsagrader to pip
