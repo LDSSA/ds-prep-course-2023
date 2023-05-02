@@ -93,23 +93,23 @@ and your browser should pop up with Jupyter open. However, if this does not happ
 
    ```bash
    cd ~/projects/ds-prep-workspace/"Week <week number>"/"<SLU name>"
-   python submit.py --slackid "<your Slack ID>"
+   python submit.py --slackid "YOUR_SLACK_ID"
    ```
 
    **Example:** For Week 00 you'd do:
 
    ```bash
    cd ~/projects/ds-prep-workspace/"Week 00"/"SLU00 - Jupyter Notebook"
-   python submit.py --slackid "<your Slack ID>"
+   python submit.py --slackid "YOUR_SLACK_ID"
    ```
  
    It can take a while for the submission to get through. If it worked out, you should get a message like this one. You will see your grade (score) and the learning unit number.
 
    ```bash
    20.0
-   {'learning_unit': 0, 'exercise_notebook': 1, 'slackid': 'UTS63FC02', 'score': 20.0}
+   {'learning_unit': 0, 'exercise_notebook': 1, 'slackid': 'U04ST63FC02', 'score': 20.0}
    Success!
-    {"id":10,"created":"2023-03-26T00:40:17.603128Z","slackid":"UTS63FC02","learning_unit" 0,"exercise_notebook":1,"score":20.0}
+    {"id":10,"created":"2023-03-26T00:40:17.603128Z", "slackid":"U04ST63FC02", "learning_unit" 0, "exercise_notebook":1, "score":20.0}
    ```
    Your submission should now be on the [portal](https://prep-course-portal.ldsacademy.org/). The submissions are ordered by the learning unit number, then chronologically. The easiest way to find your submission is to search for your Slack ID.
 
