@@ -4,6 +4,15 @@
 - Testing
 - Understand and extend code written by others
 
+## Installing Dependencies
+
+To complete this project you will need to install the dependencies specified in the `requirements.txt` file.
+
+```bash
+# In this folder and with your virtual environment activated, run:
+pip install -r requirements.txt
+```
+
 ## Running pygame on WSL
 
 If you are using WSL you will need to do the steps described here.
