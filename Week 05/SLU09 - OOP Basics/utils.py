@@ -79,7 +79,7 @@ class Toiletpaper:
         self.days_until_expired = days_until_expired
 
     def calculate_price(self):
-        return self.price_per_unit
+        return self.nr_units * self.price_per_unit
 
 
 class Capturing(list):
